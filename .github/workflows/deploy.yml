@@ -35,7 +35,7 @@ jobs:
       - name: Test Application
         run: |
           test -s _site/index.html
-          grep -q "Welcome to CI/CD Pipeline!" _site/index.html
+          grep -q "My CI/CD Pipeline is Working!" _site/index.html
           echo "Application test successful!"
 
       - name: Upload Build Artifact
